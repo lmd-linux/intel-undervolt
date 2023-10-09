@@ -1,0 +1,14 @@
+Source: intel-undervolt
+Maintainer: lmd Linux <lmd.linux@gmail.com>
+Section: misc
+Priority: standard
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: intel-undervolt
+Architecture: amd64
+Depends: libc6
+Description: Undervolt Intel CPUs
+ Tool for undervolting and altering throttle limits of Intel CPUs.
+ Undervolting works on Haswell and newer CPUs and based on the content of
+ [this article](https://github.com/mihic/linux-intel-undervolt).
